@@ -1,0 +1,26 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+.area{
+    margin: 20px 0px;
+}
+.tablepie{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:701px){
+    .cards{
+        flex: 100%;
+        justify-content: center;
+    }
+    .tablepie{
+        flex-direction: column;
+    }
+}
+
