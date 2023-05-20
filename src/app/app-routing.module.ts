@@ -8,13 +8,13 @@ import { LeadsComponent } from './leads/leads.component';
 
 const routes: Routes = [
   {
-    path:"dashboard", component:DashboardComponent
+    path:"", component:DashboardComponent
 
   },
-  {
-    path:'', redirectTo:'dashboard' , pathMatch:'full'
-    //pathmatch as full means when user open localhost:4200 it will automatically goto dashboard path 
-  },
+  // {
+  //   path:'', redirectTo:'dashboard' , pathMatch:'full'
+  //   //pathmatch as 'full' means when user open localhost:4200 it will automatically goto dashboard path 
+  // },
   {
     path:'employees', component:EmployeesComponent
   },
